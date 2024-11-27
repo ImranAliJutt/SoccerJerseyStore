@@ -40,3 +40,4 @@ C:\Users\imran\SoccerJerseyStore\obj\Debug\net8.0\refint\SoccerJerseyStore.dll
 C:\Users\imran\SoccerJerseyStore\obj\Debug\net8.0\SoccerJerseyStore.pdb
 C:\Users\imran\SoccerJerseyStore\obj\Debug\net8.0\SoccerJerseyStore.genruntimeconfig.cache
 C:\Users\imran\SoccerJerseyStore\obj\Debug\net8.0\ref\SoccerJerseyStore.dll
+C:\Users\imran\SoccerJerseyStore\obj\Debug\net8.0\SoccerJerseyStore.sourcelink.json

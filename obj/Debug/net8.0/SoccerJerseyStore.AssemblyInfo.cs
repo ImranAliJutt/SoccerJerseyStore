@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SoccerJerseyStore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ffcce8db933ba3e164b276284e89093fc752e9a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SoccerJerseyStore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SoccerJerseyStore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
