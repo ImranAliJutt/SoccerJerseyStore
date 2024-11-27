@@ -1,17 +1,14 @@
-# Dockerfile for SoccerJerseyStore project
-
 # Stage 1: Build the project
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /app
 
 # Copy csproj and restore as distinct layers
 COPY *.sln ./
-COPY SoccerJerseyStore/*.csproj ./SoccerJerseyStore/
+COPY ./*.csproj ./
 RUN dotnet restore
 
 # Copy everything else and build the app
-COPY SoccerJerseyStore/. ./SoccerJerseyStore/
-WORKDIR /app/SoccerJerseyStore
+COPY . ./
 RUN dotnet publish -c Release -o /out
 
 # Stage 2: Build runtime image
