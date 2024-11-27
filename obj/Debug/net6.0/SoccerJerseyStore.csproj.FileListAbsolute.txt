@@ -1,0 +1,8 @@
+C:\Users\imran\SoccerJerseyStore\obj\Debug\net6.0\SoccerJerseyStore.csproj.AssemblyReference.cache
+C:\Users\imran\SoccerJerseyStore\obj\Debug\net6.0\SoccerJerseyStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\imran\SoccerJerseyStore\obj\Debug\net6.0\SoccerJerseyStore.AssemblyInfoInputs.cache
+C:\Users\imran\SoccerJerseyStore\obj\Debug\net6.0\SoccerJerseyStore.AssemblyInfo.cs
+C:\Users\imran\SoccerJerseyStore\obj\Debug\net6.0\SoccerJerseyStore.csproj.CoreCompileInputs.cache
+C:\Users\imran\SoccerJerseyStore\obj\Debug\net6.0\SoccerJerseyStore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\imran\SoccerJerseyStore\obj\Debug\net6.0\SoccerJerseyStore.RazorAssemblyInfo.cache
+C:\Users\imran\SoccerJerseyStore\obj\Debug\net6.0\SoccerJerseyStore.RazorAssemblyInfo.cs

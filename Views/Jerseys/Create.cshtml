@@ -1,0 +1,27 @@
+@model SoccerJerseyStore.Models.Jersey
+
+<h2>Create a New Jersey</h2>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label for="Name">Name</label>
+        <input type="text" id="Name" name="Name" />
+    </div>
+    <div>
+        <label for="Description">Description</label>
+        <input type="text" id="Description" name="Description" />
+    </div>
+    <div>
+        <label for="Color">Color</label>
+        <input type="text" id="Color" name="Color" />
+    </div>
+    <div>
+        <label for="Size">Size</label>
+        <input type="text" id="Size" name="Size" />
+    </div>
+    <div>
+        <label for="Price">Price</label>
+        <input type="number" id="Price" name="Price" step="0.01" />
+    </div>
+    <button type="submit">Create</button>
+</form>

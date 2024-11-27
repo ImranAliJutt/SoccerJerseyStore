@@ -1,0 +1,34 @@
+﻿@model IEnumerable<SoccerJerseyStore.Models.Jersey>
+
+<div class="container">
+    <h1 class="my-4">Jerseys List</h1>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Color</th>
+                <th>Size</th>
+                <th>Price</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var jersey in Model)
+            {
+                <tr>
+                    <td>@jersey.Name</td>
+                    <td>@jersey.Description</td>
+                    <td>@jersey.Color</td>
+                    <td>@jersey.Size</td>
+                    <td>@jersey.Price.ToString("F2")</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@jersey.Id" class="btn btn-primary btn-sm">Edit</a>
+                        <a asp-action="Details" asp-route-id="@jersey.Id" class="btn btn-info btn-sm">Details</a>
+                        <a asp-action="Delete" asp-route-id="@jersey.Id" class="btn btn-danger btn-sm">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

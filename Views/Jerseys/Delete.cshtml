@@ -1,0 +1,36 @@
+@model SoccerJerseyStore.Models.Jersey
+
+<div class="container">
+    <h2>Delete Jersey</h2>
+
+    <div class="alert alert-danger" role="alert">
+        Are you sure you want to delete this jersey?
+    </div>
+
+    <div class="form-group">
+        <label>Name:</label>
+        <p>@Model.Name</p>
+    </div>
+    <div class="form-group">
+        <label>Description:</label>
+        <p>@Model.Description</p>
+    </div>
+    <div class="form-group">
+        <label>Color:</label>
+        <p>@Model.Color</p>
+    </div>
+    <div class="form-group">
+        <label>Size:</label>
+        <p>@Model.Size</p>
+    </div>
+    <div class="form-group">
+        <label>Price:</label>
+        <p>@Model.Price.ToString("F2")</p>
+    </div>
+
+    <form asp-action="DeleteConfirmed" method="post">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>

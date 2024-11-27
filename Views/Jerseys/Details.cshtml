@@ -1,0 +1,28 @@
+@model SoccerJerseyStore.Models.Jersey
+
+<div class="container">
+    <h2>Jersey Details</h2>
+
+    <div class="form-group">
+        <label>Name:</label>
+        <p>@Model.Name</p>
+    </div>
+    <div class="form-group">
+        <label>Description:</label>
+        <p>@Model.Description</p>
+    </div>
+    <div class="form-group">
+        <label>Color:</label>
+        <p>@Model.Color</p>
+    </div>
+    <div class="form-group">
+        <label>Size:</label>
+        <p>@Model.Size</p>
+    </div>
+    <div class="form-group">
+        <label>Price:</label>
+        <p>@Model.Price.ToString("F2")</p>
+    </div>
+
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>
